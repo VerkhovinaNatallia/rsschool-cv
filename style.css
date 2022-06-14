@@ -80,6 +80,7 @@
       }
       .section_list{
         list-style-type: circle;
+
         
       }
   
@@ -127,10 +128,12 @@
       .container_1 {
         display: flex;
         flex-wrap: wrap;
+        max-width: 1440px;
+        margin: 0 auto;
       }
       
       .section {
-        width: 50%;
+        width: 50%
       }
 
 
@@ -170,4 +173,9 @@
           letter-spacing: 4px;
         }  
       }
-     
+     .td_left{
+      padding-left: 10%;
+     }
+     .ul_2{
+      list-style: none;
+     }
