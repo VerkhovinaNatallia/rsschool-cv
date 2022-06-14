@@ -75,7 +75,12 @@
         color: darkblue;
         width: 720px;
         font-style:oblique ;
+        list-style-type: none;
       
+      }
+      .section_list{
+        list-style-type: circle;
+        
       }
   
       .h1{
@@ -159,3 +164,10 @@
         background-size: contain;
         background-repeat: no-repeat;
       }
+      @media (max-width: 410px) {
+        .main-title {
+          font-size: 24px;
+          letter-spacing: 4px;
+        }  
+      }
+     
